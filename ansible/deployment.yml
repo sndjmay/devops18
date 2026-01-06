@@ -29,4 +29,4 @@
         repo: "https://github.com/sndjmay/devops18.git"
         dest: /var/www/
         update: yes
-        version: master
+        version: main
