@@ -1,6 +1,6 @@
 resource "aws_launch_template" "web_server_as" {
     name = "myproject"
-    image_id           = "ami-04233b5aecce09244"
+    image_id           = "ami-0532be01f26a3de55"
     vpc_security_group_ids = [aws_security_group.web_server.id]
     instance_type = "t3.micro"
     key_name = "monokey"
