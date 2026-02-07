@@ -20,7 +20,7 @@
 
     - name: Delete existing directory
       file:
-        path: /var/www/
+        path: /var/www/html
         state: absent
 
 
